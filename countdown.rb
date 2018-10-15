@@ -2,6 +2,7 @@
 
 def countdown(int)
   count = int
+  sleep 5
   while count > 0
     puts "#{count} SECOND(S)!"
     countdown_with_sleep
