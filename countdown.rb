@@ -11,6 +11,6 @@ def countdown(int)
 end
 
 
-def countdown_with_sleep(num)
+def countdown_with_sleep
   sleep 1
 end
