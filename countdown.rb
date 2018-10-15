@@ -4,13 +4,13 @@ def countdown(int)
   count = int
   while count > 0
     puts "#{count} SECOND(S)!"
-    countdown_with_sleep(5)
+    countdown_with_sleep
     count -= 1
   end
   return "HAPPY NEW YEAR!"
 end
 
 
-def countdown_with_sleep(waste_of_time)
-  sleep 1
+def countdown_with_sleep
+  sleep 5
 end
