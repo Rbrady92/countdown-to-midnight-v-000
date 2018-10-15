@@ -2,16 +2,15 @@
 
 def countdown(int)
   count = int
-  sleep 5
   while count > 0
     puts "#{count} SECOND(S)!"
-    countdown_with_sleep
+    countdown_with_sleep(5)
     count -= 1
   end
   return "HAPPY NEW YEAR!"
 end
 
 
-def countdown_with_sleep
+def countdown_with_sleep(waste_of_time)
   sleep 1
 end
